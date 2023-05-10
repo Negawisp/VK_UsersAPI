@@ -1,7 +1,7 @@
-﻿using Service;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Domain.Model;
 using Domain.EntityConfiguraion;
+using Service.DbContexts;
 
 namespace Persistence.DbContexts
 {

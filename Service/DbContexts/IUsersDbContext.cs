@@ -1,7 +1,7 @@
 ﻿using Domain.Model;
 using Microsoft.EntityFrameworkCore;
 
-namespace Service
+namespace Service.DbContexts
 {
     public interface IUsersDbContext
     {
