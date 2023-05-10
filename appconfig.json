@@ -1,0 +1,4 @@
+{
+  "UserGroupCodes": [ "Admin", "User" ],
+  "UserStateCodes": [ "Active", "Blocked" ]
+}
