@@ -8,8 +8,9 @@ namespace Domain.EntityConfiguraion
     {
         public void Configure(EntityTypeBuilder<UserState> builder)
         {
-            // Primary key
+            // Primary key and indexes
             builder.HasKey(state => state.Id);
+            builder.HasIndex(state => state.Code);
 
             // Properties
             builder.Property(state => state.Id)

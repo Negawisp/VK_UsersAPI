@@ -22,7 +22,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решен
 		appconfig.json = appconfig.json
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{896FEB20-6695-46C5-A78C-537A9B730327}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Service\Application.csproj", "{896FEB20-6695-46C5-A78C-537A9B730327}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

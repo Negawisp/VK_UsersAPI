@@ -5,7 +5,10 @@ namespace Service.DbContexts
 {
     public interface IUsersDbContext
     {
-        DbSet<User> Users { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<UserGroup> UserGroups { get; set; }
+        public DbSet<UserState> UserStates { get; set; }
+
         Task<int> SaveChangesAsync(CancellationToken cancellationToken);
     }
 }

@@ -8,8 +8,9 @@ namespace Domain.EntityConfiguraion
     {
         public void Configure(EntityTypeBuilder<UserGroup> builder)
         {
-            // Primary key
+            // Primary key and indexes
             builder.HasKey(group => group.Id);
+            builder.HasIndex(group => group.Code);
 
             // Properties
             builder.Property(group => group.Id)
